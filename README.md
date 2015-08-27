@@ -1,5 +1,5 @@
 # hp-41_scope
-## HP-41: Telescope and observational utilities
+## HP-41: Telescope and observational utility
 
 This program calculates values for telescopes and oculars. You start the program, add a telescope and then as many oculars as you want. You can then view several values for the telescope as well as the details for each ocular when used with this telescope. You can also save the data set (telescope and oculars) to an XM file or retrieve a file saved earlier. You may add new oculars as needed to a retrieved file and save it anew.
 
