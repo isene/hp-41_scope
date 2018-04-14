@@ -14,3 +14,6 @@ LBL b (,V)	|View the basic data for the oculars as used with the telescope added
 LBL C (G)	|Get data set. You will be asked for the name of an earlier data set.
 LBL D (S)	|Save data set. An XM file will be created with the name of the telescope (as entered via LBL A).
 LBL E	|Go back to the menu.
+
+## License
+This software is released into the Public Domain.
