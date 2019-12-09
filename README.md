@@ -9,18 +9,21 @@ There are two ways to add a scope. Press "A" to view your scopes. If you haven't
 
 You select a scope or eyepiece, view the scope or eyepiece you want to select (via "A" for scopes or "C" for eyepieces") and let the program show you the name of the item and the two properties ("APP" and "FL" for scope aperture or focal length, "FL" and "AFOV" for eyepiece focal length or apparent field of view). The program will sound a high tone when the name and the two values have been shown (and stored). You may then press "B" to show the calculated values for that scope or "D" to show the calculated value for the scope/eyepiece combination.
 
-Upon **XEQ "SCOPE"**, the program give you the menu "S cS E cE S:E"
+Upon **XEQ "SCOPE"**, the program give you the menu "S cS E cE S:E" for the unshifted top row keys. After pressing R/S, it will show the menu "+S - +E - M" for the shifted top row keys. Pressing R/S again takes the program to LBL E and shows the current selection of scope/eyepiece.
 
 Label (Menu) |Description
 -------------|-----------
 LBL A (S)    |Show/edit scopes - scope name (max 6 characters), the aperture and focal length are in millimeters.
-LBL a        |Add a new scope at the end of the scope data file
 LBL B (cS)   |Calculate scope values (see table below)
 LBL C (e)    |Show/edit eyepieces - eyepiece name (max 6 characters), focal length is in millimeters and the apparent field of view (AFOV) is in degrees
-LBL c        |Add a new eyepiece at the end of the eyepiece data file
 LBL D (cE)   |Calculate scope/eyepiece values (see table below)
 LBL E (S:E)  |Show the currently selected scope/eyepiece combination
-LBL e        |Go back to the menu.
+             | 
+LBL a (+S)   |Add a new scope at the end of the scope data file
+LBL b (-)    |Remove the last scope in the scope file (SC)
+LBL c (+E)   |Add a new eyepiece at the end of the eyepiece data file
+LBL d (-)    |Remove the last eyepiece in the eyepiece file (EP)
+LBL e (M)    |Go back to the menu.
 
 The values calculated for a scope are:
 
