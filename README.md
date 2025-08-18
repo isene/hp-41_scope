@@ -1,4 +1,10 @@
 # hp-41_scope
+
+[![HP-41](https://img.shields.io/badge/HP--41-Calculator-orange)](https://en.wikipedia.org/wiki/HP-41C)
+[![License](https://img.shields.io/badge/License-Public%20Domain-brightgreen.svg)](https://unlicense.org/)
+[![GitHub stars](https://img.shields.io/github/stars/isene/hp-41_scope.svg)](https://github.com/isene/hp-41_scope/stargazers)
+[![Stay Amazing](https://img.shields.io/badge/Stay-Amazing-blue.svg)](https://isene.org)
+
 ## HP-41: Telescope and observational utility
 
 This program calculates values for telescopes and eyepieces. You start the program, add a telescope and then as many eyepieces as you want. You can then view several values for the telescope as well as the details for each eyepiece when used with this telescope. 
