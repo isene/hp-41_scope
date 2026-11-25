@@ -3,19 +3,19 @@ and calculates basic properties of scopes
 and scope/eyepiece combinations
 
 Regs: 
- 00 = (scratch)
- 01 = SCOPE
- 02 = SC-APP 
- 03 = SC-FL
- 04 = EP
- 05 = EP-FL
- 06 = EP-AFOV
+ R00 = (scratch)
+ R01 = SCOPE
+ R02 = SC-APP 
+ R03 = SC-FL
+ R04 = EP
+ R05 = EP-FL
+ R06 = EP-AFOV
 
 Flags:
- 05 = EP
+ F05 = EP
  
 
-001*LBL"SCOPE"
+001*LBL "SCOPE"
 002 "V3"
 003 CLRG
 004 SF 27 
